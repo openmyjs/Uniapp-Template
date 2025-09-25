@@ -1,0 +1,11 @@
+{
+    "version" : "1.0",
+    "configurations" : [
+        {
+            "customPlaygroundType" : "local",
+            "packageName" : "com.lianrui.ydr",
+            "playground" : "custom",
+            "type" : "uni-app:app-android"
+        }
+    ]
+}

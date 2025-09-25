@@ -1,0 +1,16 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "type": "home",
+      "style": {
+        "navigationBarTitleText": "@uni-helper"
+      }
+    },
+    {
+      "path": "pages/test/test",
+      "type": "page"
+    }
+  ],
+  "subPackages": []
+}

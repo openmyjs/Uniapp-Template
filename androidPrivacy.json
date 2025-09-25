@@ -1,0 +1,30 @@
+{
+  "version": "1.1",
+  "prompt": "template",
+  "title": "同意隐私政策即可使用XXX",
+  "message": "　　为使您正常使用我们的APP各项功能，我们需要处理您的个人信息，具体规则请阅读<a href=\"https://test.com\">《隐私政策》</a>。点击“同意”按钮即代表您已充分理解并同意<a href=\"https://test.com\">《隐私政策》</a>的完整内容。我们将严格保管及审慎使用您的信息，并按照成熟的安全标准采取相应措施尽力保护您的个人信息安全。",
+  "buttonAccept": "同意",
+  "buttonRefuse": "不同意,退出APP",
+  "hrefLoader": "system",
+  "backToExit": "false",
+  "second": {
+    "title": "确认提示",
+    "message": "",
+    "buttonAccept": "同意并继续",
+    "buttonRefuse": "退出应用"
+  },
+  "disagreeMode": {
+    "support": false,
+    "loadNativePlugins": false,
+    "visitorEntry": false,
+    "showAlways": false
+  },
+  "styles": {
+    "buttonAccept": {
+      "color": "#ffffff"
+    },
+    "buttonRefuse": {
+      "color": "#969696"
+    }
+  }
+}
