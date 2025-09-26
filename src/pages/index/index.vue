@@ -13,7 +13,7 @@ const title = ref('Hello')
 <template>
   <view class="content">
     <image class="logo" src="/static/logo.png" />
-    <view class="text-area">
+    <view class="text-area y">
       <text class="title">
         {{ title }}
       </text>

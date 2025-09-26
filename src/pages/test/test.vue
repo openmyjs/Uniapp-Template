@@ -1,11 +1,14 @@
-<script setup lang="ts">
+<route lang="json5">
+{
+  path: '/test',
+  style: { navigationBarTitleText: 'test' },
+}
+</route>
 
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <view>test</view>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

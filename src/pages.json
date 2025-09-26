@@ -8,8 +8,11 @@
       }
     },
     {
-      "path": "pages/test/test",
-      "type": "page"
+      "path": "/test",
+      "type": "page",
+      "style": {
+        "navigationBarTitleText": "test"
+      }
     }
   ],
   "subPackages": []

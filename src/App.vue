@@ -6,6 +6,7 @@ function closeSplash() {
   plus.navigator.closeSplashscreen()
   // #endif
 }
+
 onLaunch(() => {
   console.log('App Launch')
   closeSplash()

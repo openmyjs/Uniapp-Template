@@ -35,6 +35,12 @@ export default defineConfig(async ({ mode }) => {
       UnoCSS(),
       uni(),
     ],
+    resolve: {
+      alias: {
+        '@': path.join(root, './src'),
+        '@img': path.join(root, './src/static/images'),
+      },
+    },
     define: {
       // 注入版本号到全局，代码中可直接使用 __APP_VERSION__
       __APP_VERSION__: JSON.stringify(packageJson.version),
